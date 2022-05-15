@@ -1,4 +1,4 @@
 require('dotenv').config(".env");
 
-const N_CASES = process.env.N_CASES
-console.log(N_CASES);
+const DB_NAME = process.env.DB_NAME
+console.log(DB_NAME);

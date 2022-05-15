@@ -4,6 +4,6 @@
 
   $dotenv -> load(".env");
 
-  $N_CASES = $_ENV['N_CASES'];
-  echo $N_CASES . "\n";
+  $DB_NAME = $_ENV['DB_NAME'];
+  echo $DB_NAME . "\n";
 ?>

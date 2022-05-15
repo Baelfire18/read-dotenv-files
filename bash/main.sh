@@ -4,4 +4,4 @@ if [ -f .env ]; then
     export $(cat .env | grep -v '#' | sed 's/\r$//' | awk '/=/ {print $1}' )
 fi
 
-echo $N_CASES
+echo $DB_NAME

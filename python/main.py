@@ -3,5 +3,5 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-N_CASES = environ["N_CASES"]
-print(N_CASES)
+DB_NAME = environ["DB_NAME"]
+print(DB_NAME)

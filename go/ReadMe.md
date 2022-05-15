@@ -19,7 +19,7 @@ import (
 func main() {
  godotenv.Load("../.env")
  
- N_CASES := os.Getenv("N_CASES")
- fmt.Println(N_CASES)
+ DB_NAME := os.Getenv("DB_NAME")
+ fmt.Println(DB_NAME)
 }
 ```

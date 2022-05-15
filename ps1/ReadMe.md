@@ -12,5 +12,5 @@ get-content .env | foreach {
     }
 }
 
-Write-Host $env:N_CASES
+Write-Host $env:DB_NAME
 ```
