@@ -20,6 +20,7 @@ At the moment, the following languages are supported:
 - [Go](./go/)
 - [Bash](./bash/)
 - [PowerShell](./ps1/)
+- [Swift](./swift/)
 
 Comming soon:
 
