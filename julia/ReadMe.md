@@ -17,5 +17,6 @@ DotEnv.config()
 
 Which allows us to simply access environment variables directly:
 ```julia
-println(ENV["DB_NAME"])
+db_name = ENV["DB_NAME"]
+println(db_name)
 ```

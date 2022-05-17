@@ -6,5 +6,6 @@ use std::env;
 fn main() {
     dotenv().ok();
 
-    println!("{}", env::var("DB_NAME").unwrap());
+    let db_name = env::var("DB_NAME").unwrap();
+    println!("{}", db_name);
 }

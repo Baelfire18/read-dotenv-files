@@ -3,6 +3,7 @@ module ReadDotEnvFiles
 using DotEnv
 DotEnv.config()
 
-println(ENV["DB_NAME"])
+db_name = ENV["DB_NAME"]
+println(db_name)
 
 end # module
