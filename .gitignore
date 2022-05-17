@@ -2,3 +2,4 @@ node_modules/
 vendor/
 .vscode/
 About.md
+rust/target/
