@@ -21,6 +21,9 @@ At the moment, the following languages are supported:
 - [Bash](./bash/)
 - [PowerShell](./ps1/)
 - [Swift](./swift/)
+- [Julia](./julia/)
+- [Rust](./rust/)
+
 
 Comming soon:
 
