@@ -11,7 +11,7 @@ A `.env` file helps you write cleaner code because you do not have to copy long 
 
 This repository contains small scripts as well as instructions to read `.env` files in several languages.
 
-At the moment, the following languages are supported:
+At the moment, the following 11 languages are supported:
 
 - [Python](./python/)
 - [JavaScript / Node](./node/)
@@ -23,6 +23,8 @@ At the moment, the following languages are supported:
 - [Swift](./swift/)
 - [Julia](./julia/)
 - [Rust](./rust/)
+- [R](./r/)
+
 
 
 Comming soon:

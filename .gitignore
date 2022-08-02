@@ -3,3 +3,4 @@ vendor/
 .vscode/
 About.md
 rust/target/
+.Rhistory
