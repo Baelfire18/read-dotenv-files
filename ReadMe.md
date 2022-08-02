@@ -6,7 +6,7 @@ The dotenv or `.env` file is a file that contains environment variables for your
 
 A `.env` file helps you write cleaner code because you do not have to copy long strings or pollute the global namespace. Instead, you can put them in an environment variable file and process them as shown, helping the effective modularization and parameterizarion of your code.
 
-We use `.env` files to separate the configuration of our application from the code. That way we can have different configurations for the environments development, testing, and production just by changing the file. This is a good idea because it helps us to have a clean and modular codebase.
+We also use `.env` files to separate the configuration of our application from the code. That way we can have different configurations for different environments like: development, testing, and production, just by changing the file. This is a good idea because it helps us to have a clean and modular codebase.
 
 ## This repository
 
@@ -33,3 +33,8 @@ Comming soon:
 - [C](./c/): Using <https://github.com/Isty001/dotenv-c>
 
 Feel free to contribute!!
+
+
+## More information about config enviroments
+
+- [The Twelve-Factor App](https://12factor.net/config)
